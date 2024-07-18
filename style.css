@@ -1,0 +1,244 @@
+.main {
+    background-image: url("./img/bg.jpg");
+    height: 650px;
+}
+
+.main a {
+    color: white;
+    padding: 30px;
+}
+
+.main p {
+    color: white;
+    font-size: 80px;
+    margin: -20px;
+}
+
+.main button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(88, 76, 76);
+    color: white;
+    margin-top: 80px;
+}
+
+.shop-container {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro img {
+    width: 250px;
+    height: 250px;
+    padding-left: 30px;
+}
+
+.FEATURED {
+    display: flex;
+    justify-content: center;
+}
+
+.featured {
+    background-image: url("./img/featured/featured-1.jpg");
+    height: 490px;
+    width: 550px;
+    border: 2px solid green;
+    background-repeat: no-repeat;
+}
+
+.featured img {
+    width: 50px;
+    height: 50%;
+}
+
+.featured button {
+    color: white;
+    background-color: olive;
+    margin: 480px 200px;
+    width: 120px;
+    height: 30px;
+}
+
+.Featured {
+    background-image: url("./img/featured/featured-2.jpg");
+    height: 490px;
+    width: 550px;
+    border: 2px solid green;
+    background-repeat: no-repeat;
+}
+
+.Featured button {
+    color: white;
+    background-color: olive;
+    margin: 480px 200px;
+    width: 120px;
+    height: 30px;
+}
+
+.Featured img {
+    height: 400px;
+    width: 350px;
+    border: 2px solid green;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.MAIN {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.GREY{
+    position: relative;
+}
+
+.GREY::before{
+    content: "New";
+    width: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    bottom: 462px;
+    right: 20px;
+    z-index: 1;
+}
+
+.grey{
+    position: relative;
+}
+
+.grey::before{
+    content: "New";
+    width: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    bottom: 462px;
+    right: 20px;
+    z-index: 1;
+}
+
+.MEN{
+    position: relative;
+}
+
+.MEN::before{
+    content: "SELL";
+    width: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    bottom: 462px;
+    right: 20px;
+    z-index: 1;
+}
+
+.SALE {
+    background-color: aqua;
+    height: 550px;
+    padding: 70px;
+    display: flex;
+}
+
+.sale {
+    background-image: url("img/featured/featured-3.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 450px;
+    border: 2px solid olive;
+    margin-top: 30px;
+}
+
+.sale button {
+    color: white;
+    background-color: olive;
+    margin: 490px 170px;
+    width: 120px;
+    height: 30px;
+}
+
+.card1 {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card1 img{
+    height: 130px;
+    width: 200px;
+}
+
+.card2 {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card2 img{
+    height: 130px;
+    width: 200px;
+}
+
+.card3 {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card3 img{
+    height: 130px;
+    width: 200px;
+}
+
+.footer {
+    height: 350px;
+    background-color: black;
+    display: flex;;
+    justify-content: center;
+    text-align: center;
+}
+.F1{
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.F2{
+    color: white;
+    padding: 20px;
+}
+.F3{
+    color: white;
+    padding: 20px;
+}
+.F4{
+    color: white;
+    padding: 20px;
+}
+.F5{
+    color: white;
+    padding: 20px;
+}
